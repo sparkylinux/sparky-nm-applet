@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Encoding=UTF-8
+Name=nm-applet-reload
+Exec=/opt/sparky/nm-applet-reload
+Terminal=false
+MultipleArgs=false
+Type=Application
+Categories=Applications;System
+

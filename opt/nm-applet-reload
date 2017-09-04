@@ -1,0 +1,11 @@
+#!/bin/bash
+
+CHECKNM="`sleep 5s && pidof nm-applet`"
+if [ "$CHECKNM" != "" ]; then
+exit 1
+else
+# to make sure
+killall -9 nm-applet &
+# reload it with 5 second delay
+(sleep 5s && nm-applet) &
+fi
