@@ -1,7 +1,7 @@
 Sparky NM-Applet
 This will reload the Network Manager Applet if it doesn't want to start itself, when the panel's tray is not ready yet.
 
-Copyright (C) 2015-2017 Paweł Pijanowski
+Copyright (C) 2015-2026 Paweł Pijanowski
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
@@ -19,7 +19,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 Dependencies:
 -------------
 coreutils
-network-manager-gnome
+network-manager-gnome | network-manager-applet
 sysvinit-utils
 
 Install:
